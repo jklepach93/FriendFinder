@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Friend Finder</title>
+
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous"></script>
+
+
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	
+
+</head>
+<body>
+
+
+<div class="container">
+	<h2>Survey Questions</h2>
+	<hr>
+	
+	<div class="form-group">
+		<h3><strong>About You</strong></h3>
+		<label for="name">Name (Required)</label>
+	    <input type="text" class="form-control" id="name" placeholder="Your Name Here">
+	</div>
+	<div class="form-group">
+	    <label for="photo">Link to your Photo (Required)</label>
+	    <input type="text" class="form-control" id="photo" placeholder="Link to Photo Here">
+    </div>
+
+    <hr>
+
+    <h3><strong>Question 1</strong></h3>
+	<h4>You enjoy watching or participating in sports.</h4>
+ 	<select data-placeholder="" class="chosen-select" id="Question1">
+ 		<option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 (Indifferent)</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7 (Strongly Agree)</option>
+  	</select>
+
+  	 <h3><strong>Question 2</strong></h3>
+	<h4> You like gaming?</h4>
+ 	<select data-placeholder="" class="chosen-select" id="Question2">
+ 		<option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 (Indifferent)</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7 (Strongly Agree)</option>
+  	</select>
+
+  	<h3><strong>Question 3</strong></h3>
+	<h4>You like relaxing</h4>
+ 	<select data-placeholder="" class="chosen-select" id="Question3">
+ 		<option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 (Indifferent)</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7 (Strongly Agree)</option>
+  	</select>
+
+  	<h3><strong>Question 4</strong></h3>
+	<h4>You prefer calm and relaxing music.</h4>
+ 	<select data-placeholder="" class="chosen-select" id="Question4">
+ 		<option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 (Indifferent)</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7 (Strongly Agree)</option>
+  	</select>
+
+  	<h3><strong>Question 5</strong></h3>
+	<h4>You like fast food</h4>
+ 	<select data-placeholder="" class="chosen-select" id="Question5">
+ 		<option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 (Indifferent)</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7 (Strongly Agree)</option>
+  	</select>
+
+  	<h3><strong>Question 6</strong></h3>
+	<h4>You like to go out drinking</h4>
+ 	<select data-placeholder="" class="chosen-select" id="Question6">
+ 		<option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 (Indifferent)</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7 (Strongly Agree)</option>
+  	</select>
+
+  	<h3><strong>Question 7</strong></h3>
+	<h4>You enjoy  reading.</h4>
+ 	<select data-placeholder="" class="chosen-select" id="Question7">
+ 		<option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 (Indifferent)</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7 (Strongly Agree)</option>
+  	</select>
+
+  	<h3><strong>Question 8</strong></h3>
+	<h4>You are a morning person.</h4>
+ 	<select data-placeholder="" class="chosen-select" id="Question8">
+ 		<option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 (Indifferent)</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7 (Strongly Agree)</option>
+  	</select>
+
+  	<h3><strong>Question 9</strong></h3>
+	<h4>You enjoy cooking.</h4>
+ 	<select data-placeholder="" class="chosen-select" id="Question9">
+ 		<option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 (Indifferent)</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7 (Strongly Agree)</option>
+  	</select>
+
+  	<h3><strong>Question 10</strong></h3>
+	<h4>You like to travel.</h4>
+ 	<select data-placeholder="" class="chosen-select" id="Question10">
+ 		<option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4 (Indifferent)</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7 (Strongly Agree)</option>
+  	</select>
+	
+	<br>
+	<br>
+
+	<button id="submit" class="btn btn-info btn-lg btn-block" type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> Submit</button>
+
+	<hr>
+
+	<footer class="footer">
+		<div class="container">
+			<div><a href="/api/friends">API Friends List</a> | <a href="https://github.com/jklepach93/FriendFinder">GitHub Repo</a></div>
+		</div>
+	</footer>
+
+	<br>
+
+
+	<!-- Modal -->
+	<div id="matchModal" class="modal fade" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+	  			<div class="modal-header">
+	    			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	    			<h4 class="modal-title">Your new best friend!</h4>
+	  			</div>
+	  			<div class="modal-body">
+	    			<h4 id="matchName"></h4>
+	    			<img src="" id="matchPicture" width=100% alt="Picture of your new best friend!">
+	  			</div>
+	  			<div class="modal-footer">
+	    			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	  			</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	
+</div>
+
+
+<script src="/public/survey.js" type="text/javascript"></script>
+</body>
+
+</html>
+

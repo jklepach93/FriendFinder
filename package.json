@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "App to find your next best friend!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jklepach93/FriendFinder.git"
+  },
+  "author": "Justin Klepach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jklepach93/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/jklepach93/FriendFinder#readme",
+  "dependencies": {
+
+  }
+}
